@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="it.intre.ProductServletMvn.test.ProductTest" time="0.01" errors="0" skipped="0">
+<testsuite tests="15" failures="0" name="it.intre.ProductServletMvn.TestAttributeManager" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.2.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,9 +62,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="it.intre.ProductServletMvn.test.ProductTest" name="calculationOfTaxOfImportedNotGeneralProductTest" time="0.007"/>
-  <testcase classname="it.intre.ProductServletMvn.test.ProductTest" name="calculationOfTaxOfNotImportedGeneralProductTest" time="0.001"/>
-  <testcase classname="it.intre.ProductServletMvn.test.ProductTest" name="calculationOfTaxOfImportedGeneralProductTest" time="0.002"/>
-  <testcase classname="it.intre.ProductServletMvn.test.ProductTest" name="calculationOfTaxOfNotImportedNotGeneralProductTest" time="0"/>
-  <testcase classname="it.intre.ProductServletMvn.test.ProductTest" name="createNewProductTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="FOODCategoryReturnStringForSelectTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="emptyIdProductReturnEmptyStringTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="notEmptyIdProductReturnStringForSelectTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="emptyMinimumPriceReturnEmptyStringTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="notEmptyMaximumPriceReturnStringForSelectTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="ALLCategoryReturnEmptyStringTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="trueIsImportedReturnStringForSelectTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="NOT_GENERALCategoryReturnStringForSelectTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="BOOKCategoryReturnStringForSelectTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="allIsImportedReturnEmptyStringTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="GENERALCategoryReturnStringForSelectTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="falseIsImportedReturnStringForSelectTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="emptyMaximumPriceReturnEmptyStringTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="MEDICINECategoryReturnStringForSelectTest" time="0"/>
+  <testcase classname="it.intre.ProductServletMvn.TestAttributeManager" name="notEmptyMinimumPriceReturnStringForSelectTest" time="0"/>
 </testsuite>

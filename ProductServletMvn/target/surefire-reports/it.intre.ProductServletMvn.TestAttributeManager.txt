@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: it.intre.ProductServletMvn.test.ProductTest
+Test set: it.intre.ProductServletMvn.TestAttributeManager
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 sec
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec

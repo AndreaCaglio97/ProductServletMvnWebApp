@@ -12,11 +12,11 @@ public class Product {
 
 
     public Product(String name, boolean isImported, double price, Category category, int quantity) {
-        this.name=name;
-        this.isImported=isImported;
-        this.price=price;
-        this.category=category;
-        this.quantity=quantity;
+        this.name = name;
+        this.isImported = isImported;
+        this.price = price;
+        this.category = category;
+        this.quantity = quantity;
     }
 
     public Product() {
@@ -65,7 +65,7 @@ public class Product {
 
     public double singleProductTax() {
         int taxPercentage = 0;
-        double taxAmount = 0;
+        double taxAmount;
         if(getCategory() == Category.GENERAL)
         {
             taxPercentage += 10;

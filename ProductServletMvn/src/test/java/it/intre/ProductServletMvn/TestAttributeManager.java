@@ -1,4 +1,4 @@
-package it.intre.ProductServletMvn.test;
+package it.intre.ProductServletMvn;
 
 import org.junit.Test;
 
