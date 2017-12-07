@@ -1,6 +1,0 @@
-0:0:0:0:0:0:0:1 - - [06/Dec/2017:10:50:18 +0100] "GET / HTTP/1.1" 200 1804 http-bio-8888-exec-1 1230
-0:0:0:0:0:0:0:1 - - [06/Dec/2017:10:50:58 +0100] "POST /servlet HTTP/1.1" 200 570 http-bio-8888-exec-6 161
-0:0:0:0:0:0:0:1 - - [06/Dec/2017:10:51:30 +0100] "POST /GetProductServlet HTTP/1.1" 200 6339 http-bio-8888-exec-7 51
-0:0:0:0:0:0:0:1 - - [06/Dec/2017:10:51:49 +0100] "POST /GetProductServlet HTTP/1.1" 200 580 http-bio-8888-exec-7 5
-0:0:0:0:0:0:0:1 - - [06/Dec/2017:10:52:40 +0100] "POST /servlet HTTP/1.1" 200 559 http-bio-8888-exec-7 4
-0:0:0:0:0:0:0:1 - - [06/Dec/2017:10:52:57 +0100] "POST /GetProductServlet HTTP/1.1" 200 6419 http-bio-8888-exec-7 17

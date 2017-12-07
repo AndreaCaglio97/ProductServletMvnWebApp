@@ -66,12 +66,10 @@ public class Product {
     public double singleProductTax() {
         int taxPercentage = 0;
         double taxAmount;
-        if(getCategory() == Category.GENERAL)
-        {
+        if(getCategory() == Category.GENERAL) {
             taxPercentage += 10;
         }
-        if(isImported())
-        {
+        if(isImported()){
             taxPercentage += 5;
         }
         taxAmount = calculationOfPriceAndTaxAmount(taxPercentage);
@@ -79,14 +77,13 @@ public class Product {
     }
 
     private double calculationOfPriceAndTaxAmount(int taxPercentage) {
-        double price;
-        double taxAmount;
-        price=getPrice();
-        taxAmount = (taxPercentage * price) / 100;
+        double price=getPrice();
+        double taxAmount = (taxPercentage * price) / 100;
         taxAmount = roundingUpForExcess5Cents(taxAmount);
         price = (price + taxAmount) * getQuantity();
         taxAmount *= getQuantity();
         setPrice(price);
+
         return taxAmount;
     }
 
